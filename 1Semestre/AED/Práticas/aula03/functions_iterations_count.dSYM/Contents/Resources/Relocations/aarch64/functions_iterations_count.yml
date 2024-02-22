@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/hemapefe/Desktop/2Ano/AED/Práticas/aula03/functions_iterations_count"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _f1, symObjAddr: 0x0, symBinAddr: 0x1000032B4, symSize: 0x5C }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _f1, symObjAddr: 0x0, symBinAddr: 0x1000032B4, symSize: 0x5C }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _f2, symObjAddr: 0x5C, symBinAddr: 0x100003310, symSize: 0x94 }
+  - { offsetInCU: 0x108, offset: 0x108, size: 0x8, addend: 0x0, symName: _f3, symObjAddr: 0xF0, symBinAddr: 0x1000033A4, symSize: 0x94 }
+  - { offsetInCU: 0x176, offset: 0x176, size: 0x8, addend: 0x0, symName: _f4, symObjAddr: 0x184, symBinAddr: 0x100003438, symSize: 0xCC }
+  - { offsetInCU: 0x200, offset: 0x200, size: 0x8, addend: 0x0, symName: _f5, symObjAddr: 0x250, symBinAddr: 0x100003504, symSize: 0xCC }
+  - { offsetInCU: 0x28A, offset: 0x28A, size: 0x8, addend: 0x0, symName: _f6, symObjAddr: 0x31C, symBinAddr: 0x1000035D0, symSize: 0x5C }
+  - { offsetInCU: 0x2DC, offset: 0x2DC, size: 0x8, addend: 0x0, symName: _f7, symObjAddr: 0x378, symBinAddr: 0x10000362C, symSize: 0xA4 }
+  - { offsetInCU: 0x358, offset: 0x358, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x41C, symBinAddr: 0x1000036D0, symSize: 0x744 }
+...
