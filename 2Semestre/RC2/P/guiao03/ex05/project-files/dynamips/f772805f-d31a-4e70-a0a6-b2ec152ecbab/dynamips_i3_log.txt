@@ -1,0 +1,13 @@
+Apr 08 08:29:09.940 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Apr 08 08:29:09.941 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64277.
+Apr 08 08:29:09.948 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 08 08:29:09.948 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/hemapefe/Desktop/2Ano/2Semestre/RC2/P/guiao03/ex05/project-files/dynamips 
+Apr 08 08:29:09.948 GENERAL: working_dir=/Users/hemapefe/Desktop/2Ano/2Semestre/RC2/P/guiao03/ex05/project-files/dynamips
+Apr 08 08:29:09.948 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Apr 08 08:29:11.009 HYPERVISOR: exec_cmd: nio create_udp udp-1c073bfc-6cec-42be-b976-1f8a9014e2de 10020 127.0.0.1 10021 
+Apr 08 08:29:11.009 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-1c073bfc-6cec-42be-b976-1f8a9014e2de 
+Apr 08 08:29:11.019 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-1c073bfc-6cec-42be-b976-1f8a9014e2de 1 
+Apr 08 08:29:41.128 HYPERVISOR: exec_cmd: ethsw delete Switch3 
+Apr 08 08:29:41.143 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 08 08:29:41.176 HYPERVISOR: Stopped.
+Apr 08 08:29:41.176 GENERAL: reset done.
